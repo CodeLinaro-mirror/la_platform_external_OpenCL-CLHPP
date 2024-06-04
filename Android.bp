@@ -7,7 +7,7 @@ license {
     name: "OpenCL-CLHPP_license",
     visibility: [":__subpackages__"],
     license_kinds: ["SPDX-license-identifier-Apache-2.0"],
-    license_text: ["LICENSE.txt"],
+    license_text: ["LICENSE"],
 }
 
 cc_library_headers {
