@@ -1,15 +1,21 @@
-name: "OpenCL-ICD-Loader"
-description:
-    "OpenCL API C++ bindings"
+# This project was upgraded with external_updater.
+# Usage: tools/external_updater/updater.sh update external/OpenCL-CLHPP
+# For more info, check https://cs.android.com/android/platform/superproject/main/+/main:tools/external_updater/README.md
 
+name: "OpenCL-ICD-Loader"
+description: "OpenCL API C++ bindings"
 third_party {
-homepage: "https://github.com/KhronosGroup/OpenCL-CLHPP"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2025
+    month: 4
+    day: 24
+  }
+  homepage: "https://github.com/KhronosGroup/OpenCL-CLHPP"
   identifier {
     type: "Archive"
     value: "https://github.com/KhronosGroup/OpenCL-CLHPP"
+    version: "v2024.10.24"
     primary_source: true
   }
-  version: "v2023.12.14"
-  last_upgrade_date { year: 2024 month: 5 day: 20 }
-  license_type: NOTICE
 }
