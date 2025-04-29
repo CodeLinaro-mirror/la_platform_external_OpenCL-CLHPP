@@ -2,7 +2,7 @@
 # Usage: tools/external_updater/updater.sh update external/OpenCL-CLHPP
 # For more info, check https://cs.android.com/android/platform/superproject/main/+/main:tools/external_updater/README.md
 
-name: "OpenCL-ICD-Loader"
+name: "OpenCL-CLHPP"
 description: "OpenCL API C++ bindings"
 third_party {
   license_type: NOTICE
